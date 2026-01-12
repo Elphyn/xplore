@@ -1,6 +1,6 @@
-#### Xplore
+#### Rxplore
 
-Systemd service and tui client to have remote access to files, easy ssh and trasnfers
+Systemd service and tui client to have remote access to files, easy ssh and transfers
 
 #### About
 
