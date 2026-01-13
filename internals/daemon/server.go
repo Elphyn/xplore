@@ -7,6 +7,7 @@ import (
 
 func StartServer() {
 	http.HandleFunc(api.RouteHello, HandleHello)
+	http.HandleFunc(api.RouteListDir, HandleDirInfo)
 
 	http.ListenAndServe("127.0.0.1:8080", nil)
 }
